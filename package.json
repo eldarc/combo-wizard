@@ -1,10 +1,13 @@
 {
-  "name": "combo-wizard",
+  "name": "@ministryofprogramming/combo-wizard",
   "version": "1.0.1",
   "description": "ComboWizard is a function which generates combinations based on relationships of values.",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
-  "repository": "git@github.com:ministryofprogramming/combo-wizard.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ministryofprogramming/combo-wizard.git"
+  },
   "author": "Eldar Cejvanovic <eldar.cejvanovic@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -52,5 +55,18 @@
   },
   "dependencies": {
     "loadash": "^1.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ministryofprogramming/combo-wizard/issues"
+  },
+  "homepage": "https://github.com/ministryofprogramming/combo-wizard#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "keywords": [
+    "combinations",
+    "generator",
+    "combo"
+  ]
 }
