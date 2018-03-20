@@ -1,0 +1,56 @@
+{
+  "name": "combo-wizard",
+  "version": "1.0.1",
+  "description": "ComboWizard is a function which generates combinations based on relationships of values.",
+  "main": "lib/index.js",
+  "jsnext:main": "src/index.js",
+  "repository": "git@github.com:ministryofprogramming/combo-wizard.git",
+  "author": "Eldar Cejvanovic <eldar.cejvanovic@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp",
+    "lint": "eslint",
+    "pretest": "yarn run lint",
+    "test": "jest",
+    "prepublish": "yarn run build"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.2.1",
+    "babel-register": "^6.23.0",
+    "colors": "^1.2.1",
+    "coveralls": "^2.12.0",
+    "del": "^3.0.0",
+    "eslint": "^4.11.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-html": "^4.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^2.1.0",
+    "gettext-extractor": "^3.1.0",
+    "gettext-parser": "^1.3.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "jest": "^19.0.2",
+    "run-sequence": "^1.2.2",
+    "stream": "^0.0.2",
+    "webpack-stream": "^4.0.0"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  },
+  "dependencies": {
+    "loadash": "^1.0.0"
+  }
+}
