@@ -2,7 +2,7 @@
 
 > ComboWizard is a function which generates combinations based on relationships of values.
 
-[![NPM version](https://ministryofprogramming.com/_assets/images/mop-logo-badge-cf9e20233d.svg)](https://ministryofpogramming.com)
+[![NPM version](https://raw.githubusercontent.com/ministryofprogramming/combo-wizard/master/mop_logo.svg)](https://ministryofpogramming.com)
 
 ## Installation
 
