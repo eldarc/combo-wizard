@@ -1,5 +1,5 @@
 {
-  "name": "@ministryofprogramming/combo-wizard",
+  "name": "combo-wizard",
   "version": "1.0.1",
   "description": "ComboWizard is a function which generates combinations based on relationships of values.",
   "main": "lib/index.js",
@@ -65,6 +65,7 @@
     "test": "test"
   },
   "keywords": [
+    "combination",
     "combinations",
     "generator",
     "combo"

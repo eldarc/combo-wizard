@@ -75,7 +75,8 @@ This basic example will have the following result:
   entity3: { // entity3 is an object and defines its relationships with other entities.
     _default: ['how are you', 'welcome'], // Default values for entity3, which are always used.
     entity2: {
-      'user1': 'great to see you' // When entity3 combines with entity2 which has the value of `user1` the text `great to see you` will be returned as the value of entity3.
+      'user1': 'great to see you' // When entity3 combines with entity2 which has the value of `user1`
+                                  // the text `great to see you` will be returned as the value of entity3.
     }
   }
 }
@@ -149,7 +150,7 @@ const parameters = {
     }
   },
   year: {
-    _default: [1991, 2012], // When not defined explicty default year are `1991` and `2012`.
+    _default: [1991, 2012], // When not defined explicitly default year are `1991` and `2012`.
     model: {
       'yaris': [1999, 2013] // The model `yaris` can be from years `1999` and `2013`.
     },
