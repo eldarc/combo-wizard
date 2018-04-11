@@ -1,6 +1,6 @@
 {
   "name": "combo-wizard",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ComboWizard is a function which generates combinations based on relationships of values.",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
