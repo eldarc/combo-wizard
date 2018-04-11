@@ -141,7 +141,7 @@ const comboWizard = function (inputParameters, keys) {
       const parameterValue = parameters[parameterKeys[0]]
       const parameterRules = inputParameters[parameterKeys[0]]
 
-      if (!(parameterRules._default._default.includes(parameterValue))) {
+      if (!(parameterRules._default && parameterRules._default._default && parameterRules._default._default.includes(parameterValue))) {
         isValid = false
       }
 
